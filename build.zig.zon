@@ -1,0 +1,13 @@
+.{
+    .name = .zig_soroban_experiments,
+    .version = "0.0.0",
+    .fingerprint = 0xf6df4c72acf4eda,
+    .minimum_zig_version = "0.15.0",
+    .dependencies = .{
+        .soroban_sdk = .{
+            .url = "git+https://github.com/stellar-experimental/zig-soroban-sdk#00af602ab89c640f0732035a87516f9ec77e8b13",
+            .hash = "soroban_sdk-0.0.1-d-v_6BU5AwB-UIATw2qR2zrYCFpkPJmtlZRqdqVWmM76",
+        },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "contracts" },
+}

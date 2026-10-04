@@ -1,0 +1,13 @@
+[package]
+name = "harness"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[[bin]]
+name = "bench"
+path = "src/main.rs"
+
+[dependencies]
+soroban-env-host = { version = "29", features = ["testutils"] }
+sha2 = "0.10"
